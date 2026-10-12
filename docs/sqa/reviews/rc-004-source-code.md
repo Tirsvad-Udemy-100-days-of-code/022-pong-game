@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | pending |
+| 2026-10-13 | Proposed | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version | [0a05352] |
 
 ---
 
@@ -58,3 +58,4 @@ Go — every Mandatory criterion of QC-PY-001 passes or is not applicable (rows 
 
 [QC-PY-001]: ../../../framework/qc/code/qc-programming-python.md
 [MIL-001]: ../../milestones/mil-001-pong-game.md
+[0a05352]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/commit/0a0535278c3495c997b5cf36fb52f5573bfe0b35

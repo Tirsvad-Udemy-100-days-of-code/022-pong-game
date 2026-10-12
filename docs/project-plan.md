@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | pending |
-| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted by the Product Owner's acceptance of the plan | pending |
+| 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [0a05352] |
+| 2026-10-13 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted by the Product Owner's acceptance of the plan | [0a05352] |
 
 ---
 
@@ -68,3 +68,4 @@ MIL-001 (no further phases)
 [MIL-001]: ./milestones/mil-001-pong-game.md
 [BC-001]: ./business-case.md
 [SA-001]: ./stakeholder-analysis.md
+[0a05352]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/commit/0a0535278c3495c997b5cf36fb52f5573bfe0b35
