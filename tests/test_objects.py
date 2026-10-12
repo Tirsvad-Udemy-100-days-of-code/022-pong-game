@@ -7,11 +7,14 @@ import constants
 
 @pytest.fixture(scope="module")
 def screen():
-    turtle = pytest.importorskip("turtle")
-    tkinter = pytest.importorskip("tkinter")
+    try:
+        import tkinter
+        import turtle
+    except ImportError as error:  # Tk libraries missing
+        pytest.skip(f"turtle needs Tk: {error}")
     try:
         screen = turtle.Screen()
-    except tkinter.TclError as error:
+    except tkinter.TclError as error:  # no display
         pytest.skip(f"no usable display: {error}")
     screen.tracer(0)
     yield screen
