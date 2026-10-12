@@ -4,6 +4,8 @@ The classic Pong arcade game for two players, built with Python's `turtle` modul
 as the Day 22 assignment of Udemy's *100 Days of Code: The Complete Python Pro
 Bootcamp*. It has no runtime dependencies.
 
+![The Pong game window, mid-game, score 3 to 5](docs/images/pong.png)
+
 ## Requirements
 
 - Python 3.13 or newer, with Tk support (`turtle` needs it)
@@ -81,7 +83,7 @@ The HTML output is written to `docs/doxygen/html/index.html`.
 | --- | --- |
 | `src/` | Game source: `main.py`, `paddle.py`, `ball.py`, `scoreboard.py`, `rules.py`, `constants.py` |
 | `tests/` | pytest tests |
-| `docs/` | Project documents (business case, plan, milestones, reviews) |
+| `docs/` | Project documents (business case, plan, milestones, reviews) and `docs/images/` (screenshot) |
 | `framework/` | SQA and QC framework (git submodule) |
 | `pyproject.toml` | Project configuration |
 | `Doxyfile` | Doxygen configuration |
