@@ -1,0 +1,32 @@
+# Secrets (personal tokens, never part of the project)
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Generated documentation
+docs/doxygen/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
