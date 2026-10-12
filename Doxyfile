@@ -1,0 +1,15 @@
+# Doxygen configuration for the Pong game (source documentation).
+# Build with: doxygen Doxyfile   (HTML output in docs/doxygen/html)
+PROJECT_NAME           = "Pong Game"
+PROJECT_BRIEF          = "Classic Pong built with Python's turtle module"
+OUTPUT_DIRECTORY       = docs/doxygen
+INPUT                  = src README.md
+FILE_PATTERNS          = *.py *.md
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+OPTIMIZE_OUTPUT_JAVA   = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
