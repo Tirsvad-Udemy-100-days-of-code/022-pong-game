@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pong-game"
+version = "0.1.0"
+description = "Classic Pong arcade game built with Python's turtle module (Udemy 100 Days of Code, Day 22)."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "Jens Tirsvad Nielsen" }]
+keywords = ["pong", "turtle", "game", "100-days-of-code"]
+# The game uses only the standard library (turtle needs Tk).
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+py-modules = ["main", "ball", "paddle", "scoreboard", "rules", "constants"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
