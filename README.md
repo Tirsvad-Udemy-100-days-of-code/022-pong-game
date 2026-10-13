@@ -4,6 +4,8 @@ The classic Pong arcade game for two players, built with Python's `turtle` modul
 as the Day 22 assignment of Udemy's *100 Days of Code: The Complete Python Pro
 Bootcamp*. It has no runtime dependencies.
 
+Guides are in the [project wiki][wiki], in English, Dansk and Bahasa Melayu.
+
 ![The Pong game window, mid-game, score 3 to 5](docs/images/pong.png)
 
 ## Requirements
@@ -91,3 +93,5 @@ The HTML output is written to `docs/doxygen/html/index.html`.
 ## License
 
 GNU AGPL v3, see [LICENSE](LICENSE).
+
+[wiki]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/wiki
