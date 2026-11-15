@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Initial version; created with the review records of the baseline (autonomous, not independent) | [ed10d29] |
 
 ---
 
@@ -67,3 +67,4 @@ Tracks backward and forward links between the artifact instances of Pong Game so
 [RC-008]: ./reviews/rc-008-milestone-001-baseline.md
 [RC-009]: ./reviews/rc-009-milestone-002.md
 [RC-010]: ./reviews/rc-010-wiki.md
+[ed10d29]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/commit/ed10d294e5b938faf2ef44db16549180787d2187

@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [0a05352] |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted by the Product Owner's acceptance of the plan | [0a05352] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline milestone MIL-002, its scope coverage, dependency, risk and Gantt entries and the No-Go rule; linked the milestone of MIL-001 on the git host; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added the baseline milestone MIL-002, its scope coverage, dependency, risk and Gantt entries and the No-Go rule; linked the milestone of MIL-001 on the git host; set the domain to education; reviewed in autonomous mode, not independent | [ed10d29] |
 
 ---
 
@@ -84,3 +84,4 @@ MIL-002 depends on MIL-001: it documents and baselines the finished game and cha
 [MIL-002]: ./milestones/mil-002-framework-baseline.md
 [milestone-97]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/milestone/97
 [milestone-530]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/milestone/530
+[ed10d29]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/commit/ed10d294e5b938faf2ef44db16549180787d2187

@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | S01 | Initial version | [0a05352] |
 | 2026-10-13 | Deprecated | Jens Tirsvad Nielsen | AI as stand-in for S01 | Accepted with a Go (RC-001) | [0a05352] |
-| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 4, success criterion 5, a scope item, a constraint exception, an assumption and a risk for the baseline milestone MIL-002; set the domain to education; reviewed in autonomous mode, not independent | pending |
+| 2026-11-15 | Accepted | Jens Tirsvad Nielsen | AI as stand-in for S01 | Added objective 4, success criterion 5, a scope item, a constraint exception, an assumption and a risk for the baseline milestone MIL-002; set the domain to education; reviewed in autonomous mode, not independent | [ed10d29] |
 
 ---
 
@@ -134,3 +134,4 @@ Proceed — small scope, no cost, and a clear learning and sharing benefit.
 [PP-001]: ./project-plan.md
 [MIL-001]: ./milestones/mil-001-pong-game.md
 [MIL-002]: ./milestones/mil-002-framework-baseline.md
+[ed10d29]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/commit/ed10d294e5b938faf2ef44db16549180787d2187
