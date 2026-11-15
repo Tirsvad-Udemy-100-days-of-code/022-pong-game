@@ -8,11 +8,17 @@ version = "0.1.0"
 description = "Classic Pong arcade game built with Python's turtle module (Udemy 100 Days of Code, Day 22)."
 readme = "README.md"
 requires-python = ">=3.13"
-license = { text = "AGPL-3.0-or-later" }
+license = "AGPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [{ name = "Jens Tirsvad Nielsen" }]
 keywords = ["pong", "turtle", "game", "100-days-of-code"]
 # The game uses only the standard library (turtle needs Tk).
 dependencies = []
+
+[project.urls]
+Repository = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game"
+Documentation = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/wiki"
+"Issue tracker" = "https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]

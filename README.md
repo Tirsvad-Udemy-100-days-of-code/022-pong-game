@@ -4,17 +4,43 @@ The classic Pong arcade game for two players, built with Python's `turtle` modul
 as the Day 22 assignment of Udemy's *100 Days of Code: The Complete Python Pro
 Bootcamp*. It has no runtime dependencies.
 
-Guides are in the [project wiki][wiki], in English, Dansk and Bahasa Melayu.
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Requirements](#-requirements)
+- [Setup](#-setup)
+- [Run](#-run)
+- [Tests](#-tests)
+- [License](#-license)
+- [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
+
+## 🧭 Overview
+
+Guides are in the [project wiki][documentation], in English, Dansk and Bahasa Melayu.
 
 ![The Pong game window, mid-game, score 3 to 5](docs/images/pong.png)
 
-## Requirements
+### Project layout
+
+| Path | Contents |
+| --- | --- |
+| `.editorconfig` | Editor settings of the framework baseline |
+| `.env.example` | Placeholders for the tokens of the framework scripts |
+| `src/` | Game source: `main.py`, `paddle.py`, `ball.py`, `scoreboard.py`, `rules.py`, `constants.py` |
+| `tests/` | pytest tests |
+| `docs/` | Project documents (business case, plan, milestones, reviews, traceability), `docs/wiki/` (the wiki) and `docs/images/` (screenshot) |
+| `framework/` | SQA and QC framework (git submodule) |
+| `pyproject.toml` | Project configuration |
+| `Doxyfile` | Doxygen configuration |
+
+## 📋 Requirements
 
 - Python 3.13 or newer, with Tk support (`turtle` needs it)
 - `git`
 - Doxygen (optional, only to build the source documentation)
 
-## Set up
+## 🛠️ Setup
 
 Clone the repository, then create and use a local `.venv` and update `pip` inside it.
 
@@ -51,7 +77,7 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-## Run
+## ▶️ Run
 
 ```bash
 python src/main.py
@@ -60,18 +86,7 @@ python src/main.py
 Right paddle: <kbd>Up</kbd> / <kbd>Down</kbd>. Left paddle: <kbd>W</kbd> / <kbd>S</kbd>.
 Click the window to close it.
 
-## Run the tests
-
-```bash
-python -m pytest
-```
-
-## Continuous integration
-
-`.gitea/workflows/ci.yml` installs the project with the `dev` extra and runs
-`python -m pytest` on every push to `main` and on every pull request.
-
-## Build the source documentation
+### Build the source documentation
 
 ```bash
 doxygen Doxyfile
@@ -79,19 +94,49 @@ doxygen Doxyfile
 
 The HTML output is written to `docs/doxygen/html/index.html`.
 
-## Project layout
+## 🧪 Tests
 
-| Path | Contents |
+```bash
+python -m pytest
+```
+
+### Continuous integration
+
+`.gitea/workflows/ci.yml` installs the project with the `dev` extra and runs
+`python -m pytest` on every push to `main` and on every pull request.
+
+## 📄 License
+
+GNU AGPL v3, see [LICENSE][license].
+
+## 🔗 Links
+
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
+
+## 📎 Appendix: Project documents
+
+The documents a newcomer needs, in reading order.
+
+| Document | What it tells you |
 | --- | --- |
-| `src/` | Game source: `main.py`, `paddle.py`, `ball.py`, `scoreboard.py`, `rules.py`, `constants.py` |
-| `tests/` | pytest tests |
-| `docs/` | Project documents (business case, plan, milestones, reviews) and `docs/images/` (screenshot) |
-| `framework/` | SQA and QC framework (git submodule) |
-| `pyproject.toml` | Project configuration |
-| `Doxyfile` | Doxygen configuration |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The milestones and their schedule |
+| [Milestones][milestones] | One document per milestone: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
 
-## License
+---
 
-GNU AGPL v3, see [LICENSE](LICENSE).
-
-[wiki]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/wiki
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game
+[documentation]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/wiki
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/022-pong-game/issues
+[license]: ./LICENSE
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[milestones]: ./docs/milestones/
+[registry]: ./docs/artifact-registry.md
+[TM-001]: ./docs/sqa/traceability-matrix.md
